@@ -234,7 +234,7 @@ public class ResourceService
             // Find the content
             content = _contentFactory.getContent(pathInContext, response.getBufferSize());
             if (LOG.isDebugEnabled())
-               LOG.debug("content={}", content);
+                LOG.debug("content={}", content);
 
             // Not found?
             if (content == null || !content.getResource().exists())
